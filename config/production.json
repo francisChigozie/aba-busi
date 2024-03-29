@@ -1,0 +1,4 @@
+{
+    "MONGOURI": "mongodb+srv://pickkshop:pickkshop@cluster0.jqjrlyz.mongodb.net/pickkshop?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+  }
