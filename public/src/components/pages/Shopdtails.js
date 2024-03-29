@@ -63,7 +63,7 @@ const UserComponent = (match) => {
           <h4>Summary</h4>
           <p>{user.summary}</p>
         </Fragment>
-        <a href='/about' className='btn btn-dark my-1'>Link</a>
+        <Link to='/about' className='btn btn-dark my-1'>Link</Link>
         <ul>
           <li>
             <Fragment>
