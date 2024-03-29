@@ -8,8 +8,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix public",
     "clientinstall": "npm install --prefix public",
-    "dev": "nodemon server",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix public && npm run build --prefix public"
+    "dev": "nodemon server"
   },
   "author": "Francis Chigozie",
   "license": "MIT",
