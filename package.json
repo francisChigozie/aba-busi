@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "public": "npm start --prefix public",
-    "publicinstall": "npm install --prefix public",
+    "client": "npm start --prefix public",
+    "clientinstall": "npm install --prefix public",
     "dev": "nodemon server",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix public && npm run build --prefix public"
   },
