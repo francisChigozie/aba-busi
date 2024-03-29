@@ -101,7 +101,7 @@ app.use('/api/review', reviewsRauter)
 // Serve Static Access in Production
 if (process.env.NODE_ENV === 'production') {
   // set static folder
-  app.use(express.static('public/public'))
+  app.use(express.static('public'))
 
   app.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'public','build', 'index.html')))
 }
