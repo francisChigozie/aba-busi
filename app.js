@@ -29,7 +29,7 @@ const app = express()
 // 1) GLOBAL MIDDLEWARES
 // Serving static files
 //app.use(express.static(`${__dirname}/src/pickk-shop`));  //dist/pickk-shop
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public/public')));
 
 // Set security HTTP headers
 app.use(helmet());
